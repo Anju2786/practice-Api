@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="loginApi.LoginApi_test3"/>
+      <class name="loginApi.LoginApi_test4"/>
+      <class name="loginApi.LoginApi_test1"/>
+      <class name="loginApi.LoginApi_test2"/>
+      <class name="roleApi.AllRoles"/>
+      <class name="loginApi.LoginApi_test5"/>
+      <class name="value.Value_getApiValue"/>
+      <class name="itemApi.ItemApiTest"/>
+      <class name="taskApi.TaskStatus"/>
+      <class name="taskApi.AllTask_getRequest"/>
+      <class name="taskApi.AllTask_BranchId_userId"/>
+      <class name="taskApi.AllTask"/>
+      <class name="taskApi.AllTask_reAssign"/>
+      <class name="workFlow.GetInventory_BranchId"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
